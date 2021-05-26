@@ -282,7 +282,7 @@ class JellyfinPlaylistExporterComponent {
             });
             // Create blob and add to zip
             const blob = new Blob([fileData], { type: 'text/plain' });
-            zip.file(`${currentPlaylistItem[0].Name}.txt`, blob);
+            zip.file(`${currentPlaylistItem[0].Name}.m3u8`, blob);
             //saveAs(blob, `${currentPlaylistItem[0].Name}.txt`); 
         });
         // Serve the zip file using async
