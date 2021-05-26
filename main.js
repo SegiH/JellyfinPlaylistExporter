@@ -239,7 +239,7 @@ class JellyfinPlaylistExporterComponent {
         this.http = http;
         this.APIKey = "";
         this.currentUserID = '';
-        this.demoMode = true;
+        this.demoMode = false;
         this.playlists = [];
         this.playlistsLoaded = false;
         this.selectAllNone = false;
