@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /config/code/JellyfinPlaylistExporter/src/polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! C:\Users\Segi\Desktop\JellyfinPlaylistExporter\src\polyfills.ts */"hN/g");
 
 
 /***/ }),

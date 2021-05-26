@@ -2756,7 +2756,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ "qCKp");
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ "kU1M");
 /**
- * @license Angular v11.2.12
+ * @license Angular v11.2.14
  * (c) 2010-2021 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -9922,7 +9922,7 @@ FormBuilder.ɵprov = Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefi
 /**
  * @publicApi
  */
-const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["Version"]('11.2.12');
+const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["Version"]('11.2.14');
 
 /**
  * @license
@@ -16824,7 +16824,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵAnimationGroupPlayer", function() { return AnimationGroupPlayer; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵPRE_STYLE", function() { return ɵPRE_STYLE; });
 /**
- * @license Angular v11.2.12
+ * @license Angular v11.2.14
  * (c) 2010-2021 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -18058,7 +18058,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_animations_browser__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/animations/browser */ "t9l1");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ "ofXK");
 /**
- * @license Angular v11.2.12
+ * @license Angular v11.2.14
  * (c) 2010-2021 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -24071,7 +24071,7 @@ function combineLatest(...observables) {
 /*!******************************************************************!*\
   !*** ./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js ***!
   \******************************************************************/
-/*! exports provided: ANALYZE_FOR_ENTRY_COMPONENTS, APP_BOOTSTRAP_LISTENER, APP_ID, APP_INITIALIZER, ApplicationInitStatus, ApplicationModule, ApplicationRef, Attribute, COMPILER_OPTIONS, CUSTOM_ELEMENTS_SCHEMA, ChangeDetectionStrategy, ChangeDetectorRef, Compiler, CompilerFactory, Component, ComponentFactory, ComponentFactoryResolver, ComponentRef, ContentChild, ContentChildren, DEFAULT_CURRENCY_CODE, DebugElement, DebugEventListener, DebugNode, DefaultIterableDiffer, Directive, ElementRef, EmbeddedViewRef, ErrorHandler, EventEmitter, Host, HostBinding, HostListener, INJECTOR, Inject, InjectFlags, Injectable, InjectionToken, Injector, Input, IterableDiffers, KeyValueDiffers, LOCALE_ID, MissingTranslationStrategy, ModuleWithComponentFactories, NO_ERRORS_SCHEMA, NgModule, NgModuleFactory, NgModuleFactoryLoader, NgModuleRef, NgProbeToken, NgZone, Optional, Output, PACKAGE_ROOT_URL, PLATFORM_ID, PLATFORM_INITIALIZER, Pipe, PlatformRef, Query, QueryList, ReflectiveInjector, ReflectiveKey, Renderer2, RendererFactory2, RendererStyleFlags2, ResolvedReflectiveFactory, Sanitizer, SecurityContext, Self, SimpleChange, SkipSelf, SystemJsNgModuleLoader, SystemJsNgModuleLoaderConfig, TRANSLATIONS, TRANSLATIONS_FORMAT, TemplateRef, Testability, TestabilityRegistry, Type, VERSION, Version, ViewChild, ViewChildren, ViewContainerRef, ViewEncapsulation, ViewRef, WrappedValue, asNativeElements, assertPlatform, createPlatform, createPlatformFactory, defineInjectable, destroyPlatform, enableProdMode, forwardRef, getDebugNode, getModuleFactory, getPlatform, inject, isDevMode, platformCore, resolveForwardRef, setTestabilityGetter, ɵ0, ɵALLOW_MULTIPLE_PLATFORMS, ɵAPP_ID_RANDOM_PROVIDER, ɵCREATE_ATTRIBUTE_DECORATOR__POST_R3__, ɵChangeDetectorStatus, ɵCodegenComponentFactoryResolver, ɵCompiler_compileModuleAndAllComponentsAsync__POST_R3__, ɵCompiler_compileModuleAndAllComponentsSync__POST_R3__, ɵCompiler_compileModuleAsync__POST_R3__, ɵCompiler_compileModuleSync__POST_R3__, ɵComponentFactory, ɵConsole, ɵDEFAULT_LOCALE_ID, ɵEMPTY_ARRAY, ɵEMPTY_MAP, ɵINJECTOR_IMPL__POST_R3__, ɵINJECTOR_SCOPE, ɵLifecycleHooksFeature, ɵLocaleDataIndex, ɵNG_COMP_DEF, ɵNG_DIR_DEF, ɵNG_ELEMENT_ID, ɵNG_INJ_DEF, ɵNG_MOD_DEF, ɵNG_PIPE_DEF, ɵNG_PROV_DEF, ɵNOT_FOUND_CHECK_ONLY_ELEMENT_INJECTOR, ɵNO_CHANGE, ɵNgModuleFactory, ɵNoopNgZone, ɵReflectionCapabilities, ɵRender3ComponentFactory, ɵRender3ComponentRef, ɵRender3NgModuleRef, ɵSWITCH_CHANGE_DETECTOR_REF_FACTORY__POST_R3__, ɵSWITCH_COMPILE_COMPONENT__POST_R3__, ɵSWITCH_COMPILE_DIRECTIVE__POST_R3__, ɵSWITCH_COMPILE_INJECTABLE__POST_R3__, ɵSWITCH_COMPILE_NGMODULE__POST_R3__, ɵSWITCH_COMPILE_PIPE__POST_R3__, ɵSWITCH_ELEMENT_REF_FACTORY__POST_R3__, ɵSWITCH_IVY_ENABLED__POST_R3__, ɵSWITCH_RENDERER2_FACTORY__POST_R3__, ɵSWITCH_TEMPLATE_REF_FACTORY__POST_R3__, ɵSWITCH_VIEW_CONTAINER_REF_FACTORY__POST_R3__, ɵ_sanitizeHtml, ɵ_sanitizeUrl, ɵallowSanitizationBypassAndThrow, ɵand, ɵangular_packages_core_core_a, ɵangular_packages_core_core_b, ɵangular_packages_core_core_ba, ɵangular_packages_core_core_bb, ɵangular_packages_core_core_bc, ɵangular_packages_core_core_bd, ɵangular_packages_core_core_be, ɵangular_packages_core_core_bf, ɵangular_packages_core_core_bg, ɵangular_packages_core_core_bh, ɵangular_packages_core_core_bi, ɵangular_packages_core_core_bj, ɵangular_packages_core_core_bl, ɵangular_packages_core_core_bm, ɵangular_packages_core_core_bn, ɵangular_packages_core_core_bo, ɵangular_packages_core_core_bp, ɵangular_packages_core_core_bq, ɵangular_packages_core_core_br, ɵangular_packages_core_core_bs, ɵangular_packages_core_core_bv, ɵangular_packages_core_core_bw, ɵangular_packages_core_core_bx, ɵangular_packages_core_core_bz, ɵangular_packages_core_core_c, ɵangular_packages_core_core_cb, ɵangular_packages_core_core_cc, ɵangular_packages_core_core_d, ɵangular_packages_core_core_e, ɵangular_packages_core_core_f, ɵangular_packages_core_core_g, ɵangular_packages_core_core_h, ɵangular_packages_core_core_i, ɵangular_packages_core_core_j, ɵangular_packages_core_core_k, ɵangular_packages_core_core_l, ɵangular_packages_core_core_m, ɵangular_packages_core_core_n, ɵangular_packages_core_core_o, ɵangular_packages_core_core_p, ɵangular_packages_core_core_q, ɵangular_packages_core_core_r, ɵangular_packages_core_core_s, ɵangular_packages_core_core_t, ɵangular_packages_core_core_u, ɵangular_packages_core_core_v, ɵangular_packages_core_core_w, ɵangular_packages_core_core_x, ɵangular_packages_core_core_y, ɵangular_packages_core_core_z, ɵbypassSanitizationTrustHtml, ɵbypassSanitizationTrustResourceUrl, ɵbypassSanitizationTrustScript, ɵbypassSanitizationTrustStyle, ɵbypassSanitizationTrustUrl, ɵccf, ɵclearOverrides, ɵclearResolutionOfComponentResourcesQueue, ɵcmf, ɵcompileComponent, ɵcompileDirective, ɵcompileNgModule, ɵcompileNgModuleDefs, ɵcompileNgModuleFactory__POST_R3__, ɵcompilePipe, ɵcreateInjector, ɵcrt, ɵdefaultIterableDiffers, ɵdefaultKeyValueDiffers, ɵdetectChanges, ɵdevModeEqual, ɵdid, ɵeld, ɵfindLocaleData, ɵflushModuleScopingQueueAsMuchAsPossible, ɵgetComponentViewDefinitionFactory, ɵgetDebugNodeR2, ɵgetDebugNode__POST_R3__, ɵgetDirectives, ɵgetHostElement, ɵgetInjectableDef, ɵgetLContext, ɵgetLocaleCurrencyCode, ɵgetLocalePluralCase, ɵgetModuleFactory__POST_R3__, ɵgetSanitizationBypassType, ɵglobal, ɵinitServicesIfNeeded, ɵinlineInterpolate, ɵinterpolate, ɵisBoundToModule__POST_R3__, ɵisDefaultChangeDetectionStrategy, ɵisListLikeIterable, ɵisObservable, ɵisPromise, ɵisSubscribable, ɵivyEnabled, ɵmakeDecorator, ɵmarkDirty, ɵmod, ɵmpd, ɵncd, ɵnoSideEffects, ɵnov, ɵoverrideComponentView, ɵoverrideProvider, ɵpad, ɵpatchComponentDefWithScope, ɵpid, ɵpod, ɵppd, ɵprd, ɵpublishDefaultGlobalUtils, ɵpublishGlobalUtil, ɵqud, ɵregisterLocaleData, ɵregisterModuleFactory, ɵregisterNgModuleType, ɵrenderComponent, ɵresetCompiledComponents, ɵresetJitOptions, ɵresolveComponentResources, ɵsetClassMetadata, ɵsetCurrentInjector, ɵsetDocument, ɵsetLocaleId, ɵstore, ɵstringify, ɵted, ɵtransitiveScopesFor, ɵunregisterLocaleData, ɵunv, ɵunwrapSafeValue, ɵvid, ɵwhenRendered, ɵɵCopyDefinitionFeature, ɵɵInheritDefinitionFeature, ɵɵNgOnChangesFeature, ɵɵProvidersFeature, ɵɵadvance, ɵɵattribute, ɵɵattributeInterpolate1, ɵɵattributeInterpolate2, ɵɵattributeInterpolate3, ɵɵattributeInterpolate4, ɵɵattributeInterpolate5, ɵɵattributeInterpolate6, ɵɵattributeInterpolate7, ɵɵattributeInterpolate8, ɵɵattributeInterpolateV, ɵɵclassMap, ɵɵclassMapInterpolate1, ɵɵclassMapInterpolate2, ɵɵclassMapInterpolate3, ɵɵclassMapInterpolate4, ɵɵclassMapInterpolate5, ɵɵclassMapInterpolate6, ɵɵclassMapInterpolate7, ɵɵclassMapInterpolate8, ɵɵclassMapInterpolateV, ɵɵclassProp, ɵɵcontentQuery, ɵɵdefineComponent, ɵɵdefineDirective, ɵɵdefineInjectable, ɵɵdefineInjector, ɵɵdefineNgModule, ɵɵdefinePipe, ɵɵdirectiveInject, ɵɵdisableBindings, ɵɵelement, ɵɵelementContainer, ɵɵelementContainerEnd, ɵɵelementContainerStart, ɵɵelementEnd, ɵɵelementStart, ɵɵenableBindings, ɵɵgetCurrentView, ɵɵgetInheritedFactory, ɵɵhostProperty, ɵɵi18n, ɵɵi18nApply, ɵɵi18nAttributes, ɵɵi18nEnd, ɵɵi18nExp, ɵɵi18nPostprocess, ɵɵi18nStart, ɵɵinject, ɵɵinjectAttribute, ɵɵinjectPipeChangeDetectorRef, ɵɵinvalidFactory, ɵɵinvalidFactoryDep, ɵɵlistener, ɵɵloadQuery, ɵɵnamespaceHTML, ɵɵnamespaceMathML, ɵɵnamespaceSVG, ɵɵnextContext, ɵɵngDeclareComponent, ɵɵngDeclareDirective, ɵɵngDeclarePipe, ɵɵpipe, ɵɵpipeBind1, ɵɵpipeBind2, ɵɵpipeBind3, ɵɵpipeBind4, ɵɵpipeBindV, ɵɵprojection, ɵɵprojectionDef, ɵɵproperty, ɵɵpropertyInterpolate, ɵɵpropertyInterpolate1, ɵɵpropertyInterpolate2, ɵɵpropertyInterpolate3, ɵɵpropertyInterpolate4, ɵɵpropertyInterpolate5, ɵɵpropertyInterpolate6, ɵɵpropertyInterpolate7, ɵɵpropertyInterpolate8, ɵɵpropertyInterpolateV, ɵɵpureFunction0, ɵɵpureFunction1, ɵɵpureFunction2, ɵɵpureFunction3, ɵɵpureFunction4, ɵɵpureFunction5, ɵɵpureFunction6, ɵɵpureFunction7, ɵɵpureFunction8, ɵɵpureFunctionV, ɵɵqueryRefresh, ɵɵreference, ɵɵresolveBody, ɵɵresolveDocument, ɵɵresolveWindow, ɵɵrestoreView, ɵɵsanitizeHtml, ɵɵsanitizeResourceUrl, ɵɵsanitizeScript, ɵɵsanitizeStyle, ɵɵsanitizeUrl, ɵɵsanitizeUrlOrResourceUrl, ɵɵsetComponentScope, ɵɵsetNgModuleScope, ɵɵstyleMap, ɵɵstyleMapInterpolate1, ɵɵstyleMapInterpolate2, ɵɵstyleMapInterpolate3, ɵɵstyleMapInterpolate4, ɵɵstyleMapInterpolate5, ɵɵstyleMapInterpolate6, ɵɵstyleMapInterpolate7, ɵɵstyleMapInterpolate8, ɵɵstyleMapInterpolateV, ɵɵstyleProp, ɵɵstylePropInterpolate1, ɵɵstylePropInterpolate2, ɵɵstylePropInterpolate3, ɵɵstylePropInterpolate4, ɵɵstylePropInterpolate5, ɵɵstylePropInterpolate6, ɵɵstylePropInterpolate7, ɵɵstylePropInterpolate8, ɵɵstylePropInterpolateV, ɵɵsyntheticHostListener, ɵɵsyntheticHostProperty, ɵɵtemplate, ɵɵtemplateRefExtractor, ɵɵtext, ɵɵtextInterpolate, ɵɵtextInterpolate1, ɵɵtextInterpolate2, ɵɵtextInterpolate3, ɵɵtextInterpolate4, ɵɵtextInterpolate5, ɵɵtextInterpolate6, ɵɵtextInterpolate7, ɵɵtextInterpolate8, ɵɵtextInterpolateV, ɵɵtrustConstantHtml, ɵɵtrustConstantResourceUrl, ɵɵviewQuery */
+/*! exports provided: ANALYZE_FOR_ENTRY_COMPONENTS, APP_BOOTSTRAP_LISTENER, APP_ID, APP_INITIALIZER, ApplicationInitStatus, ApplicationModule, ApplicationRef, Attribute, COMPILER_OPTIONS, CUSTOM_ELEMENTS_SCHEMA, ChangeDetectionStrategy, ChangeDetectorRef, Compiler, CompilerFactory, Component, ComponentFactory, ComponentFactoryResolver, ComponentRef, ContentChild, ContentChildren, DEFAULT_CURRENCY_CODE, DebugElement, DebugEventListener, DebugNode, DefaultIterableDiffer, Directive, ElementRef, EmbeddedViewRef, ErrorHandler, EventEmitter, Host, HostBinding, HostListener, INJECTOR, Inject, InjectFlags, Injectable, InjectionToken, Injector, Input, IterableDiffers, KeyValueDiffers, LOCALE_ID, MissingTranslationStrategy, ModuleWithComponentFactories, NO_ERRORS_SCHEMA, NgModule, NgModuleFactory, NgModuleFactoryLoader, NgModuleRef, NgProbeToken, NgZone, Optional, Output, PACKAGE_ROOT_URL, PLATFORM_ID, PLATFORM_INITIALIZER, Pipe, PlatformRef, Query, QueryList, ReflectiveInjector, ReflectiveKey, Renderer2, RendererFactory2, RendererStyleFlags2, ResolvedReflectiveFactory, Sanitizer, SecurityContext, Self, SimpleChange, SkipSelf, SystemJsNgModuleLoader, SystemJsNgModuleLoaderConfig, TRANSLATIONS, TRANSLATIONS_FORMAT, TemplateRef, Testability, TestabilityRegistry, Type, VERSION, Version, ViewChild, ViewChildren, ViewContainerRef, ViewEncapsulation, ViewRef, WrappedValue, asNativeElements, assertPlatform, createPlatform, createPlatformFactory, defineInjectable, destroyPlatform, enableProdMode, forwardRef, getDebugNode, getModuleFactory, getPlatform, inject, isDevMode, platformCore, resolveForwardRef, setTestabilityGetter, ɵ0, ɵALLOW_MULTIPLE_PLATFORMS, ɵAPP_ID_RANDOM_PROVIDER, ɵCREATE_ATTRIBUTE_DECORATOR__POST_R3__, ɵChangeDetectorStatus, ɵCodegenComponentFactoryResolver, ɵCompiler_compileModuleAndAllComponentsAsync__POST_R3__, ɵCompiler_compileModuleAndAllComponentsSync__POST_R3__, ɵCompiler_compileModuleAsync__POST_R3__, ɵCompiler_compileModuleSync__POST_R3__, ɵComponentFactory, ɵConsole, ɵDEFAULT_LOCALE_ID, ɵEMPTY_ARRAY, ɵEMPTY_MAP, ɵINJECTOR_IMPL__POST_R3__, ɵINJECTOR_SCOPE, ɵLifecycleHooksFeature, ɵLocaleDataIndex, ɵNG_COMP_DEF, ɵNG_DIR_DEF, ɵNG_ELEMENT_ID, ɵNG_INJ_DEF, ɵNG_MOD_DEF, ɵNG_PIPE_DEF, ɵNG_PROV_DEF, ɵNOT_FOUND_CHECK_ONLY_ELEMENT_INJECTOR, ɵNO_CHANGE, ɵNgModuleFactory, ɵNoopNgZone, ɵReflectionCapabilities, ɵRender3ComponentFactory, ɵRender3ComponentRef, ɵRender3NgModuleRef, ɵRuntimeError, ɵSWITCH_CHANGE_DETECTOR_REF_FACTORY__POST_R3__, ɵSWITCH_COMPILE_COMPONENT__POST_R3__, ɵSWITCH_COMPILE_DIRECTIVE__POST_R3__, ɵSWITCH_COMPILE_INJECTABLE__POST_R3__, ɵSWITCH_COMPILE_NGMODULE__POST_R3__, ɵSWITCH_COMPILE_PIPE__POST_R3__, ɵSWITCH_ELEMENT_REF_FACTORY__POST_R3__, ɵSWITCH_IVY_ENABLED__POST_R3__, ɵSWITCH_RENDERER2_FACTORY__POST_R3__, ɵSWITCH_TEMPLATE_REF_FACTORY__POST_R3__, ɵSWITCH_VIEW_CONTAINER_REF_FACTORY__POST_R3__, ɵ_sanitizeHtml, ɵ_sanitizeUrl, ɵallowSanitizationBypassAndThrow, ɵand, ɵangular_packages_core_core_a, ɵangular_packages_core_core_b, ɵangular_packages_core_core_ba, ɵangular_packages_core_core_bb, ɵangular_packages_core_core_bc, ɵangular_packages_core_core_bd, ɵangular_packages_core_core_be, ɵangular_packages_core_core_bf, ɵangular_packages_core_core_bg, ɵangular_packages_core_core_bh, ɵangular_packages_core_core_bi, ɵangular_packages_core_core_bj, ɵangular_packages_core_core_bl, ɵangular_packages_core_core_bm, ɵangular_packages_core_core_bn, ɵangular_packages_core_core_bo, ɵangular_packages_core_core_bp, ɵangular_packages_core_core_bq, ɵangular_packages_core_core_br, ɵangular_packages_core_core_bs, ɵangular_packages_core_core_bv, ɵangular_packages_core_core_bw, ɵangular_packages_core_core_bx, ɵangular_packages_core_core_bz, ɵangular_packages_core_core_c, ɵangular_packages_core_core_cb, ɵangular_packages_core_core_cc, ɵangular_packages_core_core_d, ɵangular_packages_core_core_e, ɵangular_packages_core_core_f, ɵangular_packages_core_core_g, ɵangular_packages_core_core_h, ɵangular_packages_core_core_i, ɵangular_packages_core_core_j, ɵangular_packages_core_core_k, ɵangular_packages_core_core_l, ɵangular_packages_core_core_m, ɵangular_packages_core_core_n, ɵangular_packages_core_core_o, ɵangular_packages_core_core_p, ɵangular_packages_core_core_q, ɵangular_packages_core_core_r, ɵangular_packages_core_core_s, ɵangular_packages_core_core_t, ɵangular_packages_core_core_u, ɵangular_packages_core_core_v, ɵangular_packages_core_core_w, ɵangular_packages_core_core_x, ɵangular_packages_core_core_y, ɵangular_packages_core_core_z, ɵbypassSanitizationTrustHtml, ɵbypassSanitizationTrustResourceUrl, ɵbypassSanitizationTrustScript, ɵbypassSanitizationTrustStyle, ɵbypassSanitizationTrustUrl, ɵccf, ɵclearOverrides, ɵclearResolutionOfComponentResourcesQueue, ɵcmf, ɵcompileComponent, ɵcompileDirective, ɵcompileNgModule, ɵcompileNgModuleDefs, ɵcompileNgModuleFactory__POST_R3__, ɵcompilePipe, ɵcreateInjector, ɵcrt, ɵdefaultIterableDiffers, ɵdefaultKeyValueDiffers, ɵdetectChanges, ɵdevModeEqual, ɵdid, ɵeld, ɵfindLocaleData, ɵflushModuleScopingQueueAsMuchAsPossible, ɵgetComponentViewDefinitionFactory, ɵgetDebugNodeR2, ɵgetDebugNode__POST_R3__, ɵgetDirectives, ɵgetHostElement, ɵgetInjectableDef, ɵgetLContext, ɵgetLocaleCurrencyCode, ɵgetLocalePluralCase, ɵgetModuleFactory__POST_R3__, ɵgetSanitizationBypassType, ɵglobal, ɵinitServicesIfNeeded, ɵinlineInterpolate, ɵinterpolate, ɵisBoundToModule__POST_R3__, ɵisDefaultChangeDetectionStrategy, ɵisListLikeIterable, ɵisObservable, ɵisPromise, ɵisSubscribable, ɵivyEnabled, ɵmakeDecorator, ɵmarkDirty, ɵmod, ɵmpd, ɵncd, ɵnoSideEffects, ɵnov, ɵoverrideComponentView, ɵoverrideProvider, ɵpad, ɵpatchComponentDefWithScope, ɵpid, ɵpod, ɵppd, ɵprd, ɵpublishDefaultGlobalUtils, ɵpublishGlobalUtil, ɵqud, ɵregisterLocaleData, ɵregisterModuleFactory, ɵregisterNgModuleType, ɵrenderComponent, ɵresetCompiledComponents, ɵresetJitOptions, ɵresolveComponentResources, ɵsetClassMetadata, ɵsetCurrentInjector, ɵsetDocument, ɵsetLocaleId, ɵstore, ɵstringify, ɵted, ɵtransitiveScopesFor, ɵunregisterLocaleData, ɵunv, ɵunwrapSafeValue, ɵvid, ɵwhenRendered, ɵɵCopyDefinitionFeature, ɵɵInheritDefinitionFeature, ɵɵNgOnChangesFeature, ɵɵProvidersFeature, ɵɵadvance, ɵɵattribute, ɵɵattributeInterpolate1, ɵɵattributeInterpolate2, ɵɵattributeInterpolate3, ɵɵattributeInterpolate4, ɵɵattributeInterpolate5, ɵɵattributeInterpolate6, ɵɵattributeInterpolate7, ɵɵattributeInterpolate8, ɵɵattributeInterpolateV, ɵɵclassMap, ɵɵclassMapInterpolate1, ɵɵclassMapInterpolate2, ɵɵclassMapInterpolate3, ɵɵclassMapInterpolate4, ɵɵclassMapInterpolate5, ɵɵclassMapInterpolate6, ɵɵclassMapInterpolate7, ɵɵclassMapInterpolate8, ɵɵclassMapInterpolateV, ɵɵclassProp, ɵɵcontentQuery, ɵɵdefineComponent, ɵɵdefineDirective, ɵɵdefineInjectable, ɵɵdefineInjector, ɵɵdefineNgModule, ɵɵdefinePipe, ɵɵdirectiveInject, ɵɵdisableBindings, ɵɵelement, ɵɵelementContainer, ɵɵelementContainerEnd, ɵɵelementContainerStart, ɵɵelementEnd, ɵɵelementStart, ɵɵenableBindings, ɵɵgetCurrentView, ɵɵgetInheritedFactory, ɵɵhostProperty, ɵɵi18n, ɵɵi18nApply, ɵɵi18nAttributes, ɵɵi18nEnd, ɵɵi18nExp, ɵɵi18nPostprocess, ɵɵi18nStart, ɵɵinject, ɵɵinjectAttribute, ɵɵinjectPipeChangeDetectorRef, ɵɵinvalidFactory, ɵɵinvalidFactoryDep, ɵɵlistener, ɵɵloadQuery, ɵɵnamespaceHTML, ɵɵnamespaceMathML, ɵɵnamespaceSVG, ɵɵnextContext, ɵɵngDeclareComponent, ɵɵngDeclareDirective, ɵɵngDeclarePipe, ɵɵpipe, ɵɵpipeBind1, ɵɵpipeBind2, ɵɵpipeBind3, ɵɵpipeBind4, ɵɵpipeBindV, ɵɵprojection, ɵɵprojectionDef, ɵɵproperty, ɵɵpropertyInterpolate, ɵɵpropertyInterpolate1, ɵɵpropertyInterpolate2, ɵɵpropertyInterpolate3, ɵɵpropertyInterpolate4, ɵɵpropertyInterpolate5, ɵɵpropertyInterpolate6, ɵɵpropertyInterpolate7, ɵɵpropertyInterpolate8, ɵɵpropertyInterpolateV, ɵɵpureFunction0, ɵɵpureFunction1, ɵɵpureFunction2, ɵɵpureFunction3, ɵɵpureFunction4, ɵɵpureFunction5, ɵɵpureFunction6, ɵɵpureFunction7, ɵɵpureFunction8, ɵɵpureFunctionV, ɵɵqueryRefresh, ɵɵreference, ɵɵresolveBody, ɵɵresolveDocument, ɵɵresolveWindow, ɵɵrestoreView, ɵɵsanitizeHtml, ɵɵsanitizeResourceUrl, ɵɵsanitizeScript, ɵɵsanitizeStyle, ɵɵsanitizeUrl, ɵɵsanitizeUrlOrResourceUrl, ɵɵsetComponentScope, ɵɵsetNgModuleScope, ɵɵstyleMap, ɵɵstyleMapInterpolate1, ɵɵstyleMapInterpolate2, ɵɵstyleMapInterpolate3, ɵɵstyleMapInterpolate4, ɵɵstyleMapInterpolate5, ɵɵstyleMapInterpolate6, ɵɵstyleMapInterpolate7, ɵɵstyleMapInterpolate8, ɵɵstyleMapInterpolateV, ɵɵstyleProp, ɵɵstylePropInterpolate1, ɵɵstylePropInterpolate2, ɵɵstylePropInterpolate3, ɵɵstylePropInterpolate4, ɵɵstylePropInterpolate5, ɵɵstylePropInterpolate6, ɵɵstylePropInterpolate7, ɵɵstylePropInterpolate8, ɵɵstylePropInterpolateV, ɵɵsyntheticHostListener, ɵɵsyntheticHostProperty, ɵɵtemplate, ɵɵtemplateRefExtractor, ɵɵtext, ɵɵtextInterpolate, ɵɵtextInterpolate1, ɵɵtextInterpolate2, ɵɵtextInterpolate3, ɵɵtextInterpolate4, ɵɵtextInterpolate5, ɵɵtextInterpolate6, ɵɵtextInterpolate7, ɵɵtextInterpolate8, ɵɵtextInterpolateV, ɵɵtrustConstantHtml, ɵɵtrustConstantResourceUrl, ɵɵviewQuery */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -24214,6 +24214,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵRender3ComponentFactory", function() { return ComponentFactory$1; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵRender3ComponentRef", function() { return ComponentRef$1; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵRender3NgModuleRef", function() { return NgModuleRef$1; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵRuntimeError", function() { return RuntimeError; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵSWITCH_CHANGE_DETECTOR_REF_FACTORY__POST_R3__", function() { return SWITCH_CHANGE_DETECTOR_REF_FACTORY__POST_R3__; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵSWITCH_COMPILE_COMPONENT__POST_R3__", function() { return SWITCH_COMPILE_COMPONENT__POST_R3__; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵSWITCH_COMPILE_DIRECTIVE__POST_R3__", function() { return SWITCH_COMPILE_DIRECTIVE__POST_R3__; });
@@ -24514,7 +24515,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! rxjs */ "qCKp");
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs/operators */ "kU1M");
 /**
- * @license Angular v11.2.12
+ * @license Angular v11.2.14
  * (c) 2010-2021 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -31913,11 +31914,25 @@ function executeOnDestroys(tView, lView) {
                 const toCall = destroyHooks[i + 1];
                 if (Array.isArray(toCall)) {
                     for (let j = 0; j < toCall.length; j += 2) {
-                        toCall[j + 1].call(context[toCall[j]]);
+                        const callContext = context[toCall[j]];
+                        const hook = toCall[j + 1];
+                        profiler(4 /* LifecycleHookStart */, callContext, hook);
+                        try {
+                            hook.call(callContext);
+                        }
+                        finally {
+                            profiler(5 /* LifecycleHookEnd */, callContext, hook);
+                        }
                     }
                 }
                 else {
-                    toCall.call(context);
+                    profiler(4 /* LifecycleHookStart */, context, toCall);
+                    try {
+                        toCall.call(context);
+                    }
+                    finally {
+                        profiler(5 /* LifecycleHookEnd */, context, toCall);
+                    }
                 }
             }
         }
@@ -44682,7 +44697,7 @@ function i18nStartFirstCreatePassProcessTextNode(tView, rootTNode, existingTNode
     const hasBinding = text.match(BINDING_REGEXP);
     const tNode = createTNodeAndAddOpCode(tView, rootTNode, existingTNodes, lView, createOpCodes, hasBinding ? null : text, false);
     if (hasBinding) {
-        generateBindingUpdateOpCodes(updateOpCodes, text, tNode.index);
+        generateBindingUpdateOpCodes(updateOpCodes, text, tNode.index, null, 0, null);
     }
 }
 /**
@@ -44710,7 +44725,9 @@ function i18nAttributesFirstPass(tView, index, values) {
                 }
                 // i18n attributes that hit this code path are guaranteed to have bindings, because
                 // the compiler treats static i18n attributes as regular attribute bindings.
-                generateBindingUpdateOpCodes(updateOpCodes, message, previousElementIndex, attrName);
+                // Since this may not be the first i18n attribute on this element we need to pass in how
+                // many previous bindings there have already been.
+                generateBindingUpdateOpCodes(updateOpCodes, message, previousElementIndex, attrName, countBindings(updateOpCodes), null);
             }
         }
         tView.data[index] = updateOpCodes;
@@ -44724,8 +44741,10 @@ function i18nAttributesFirstPass(tView, index, values) {
  * @param destinationNode Index of the destination node which will receive the binding.
  * @param attrName Name of the attribute, if the string belongs to an attribute.
  * @param sanitizeFn Sanitization function used to sanitize the string after update, if necessary.
+ * @param bindingStart The lView index of the next expression that can be bound via an opCode.
+ * @returns The mask value for these bindings
  */
-function generateBindingUpdateOpCodes(updateOpCodes, str, destinationNode, attrName, sanitizeFn = null) {
+function generateBindingUpdateOpCodes(updateOpCodes, str, destinationNode, attrName, bindingStart, sanitizeFn) {
     ngDevMode &&
         assertGreaterThanOrEqual(destinationNode, HEADER_OFFSET, 'Index must be in absolute LView offset');
     const maskIndex = updateOpCodes.length; // Location of mask
@@ -44741,7 +44760,7 @@ function generateBindingUpdateOpCodes(updateOpCodes, str, destinationNode, attrN
         const textValue = textParts[j];
         if (j & 1) {
             // Odd indexes are bindings
-            const bindingIndex = parseInt(textValue, 10);
+            const bindingIndex = bindingStart + parseInt(textValue, 10);
             updateOpCodes.push(-1 - bindingIndex);
             mask = mask | toMaskBit(bindingIndex);
         }
@@ -44758,6 +44777,28 @@ function generateBindingUpdateOpCodes(updateOpCodes, str, destinationNode, attrN
     updateOpCodes[maskIndex] = mask;
     updateOpCodes[sizeIndex] = updateOpCodes.length - startIndex;
     return mask;
+}
+/**
+ * Count the number of bindings in the given `opCodes`.
+ *
+ * It could be possible to speed this up, by passing the number of bindings found back from
+ * `generateBindingUpdateOpCodes()` to `i18nAttributesFirstPass()` but this would then require more
+ * complexity in the code and/or transient objects to be created.
+ *
+ * Since this function is only called once when the template is instantiated, is trivial in the
+ * first instance (since `opCodes` will be an empty array), and it is not common for elements to
+ * contain multiple i18n bound attributes, it seems like this is a reasonable compromise.
+ */
+function countBindings(opCodes) {
+    let count = 0;
+    for (let i = 0; i < opCodes.length; i++) {
+        const opCode = opCodes[i];
+        // Bindings are negative numbers.
+        if (typeof opCode === 'number' && opCode < 0) {
+            count++;
+        }
+    }
+    return count;
 }
 /**
  * Convert binding index to mask bit.
@@ -45010,13 +45051,13 @@ function walkIcuTree(tView, tIcu, lView, sharedUpdateOpCodes, create, remove, up
                         if (hasBinding) {
                             if (VALID_ATTRS.hasOwnProperty(lowerAttrName)) {
                                 if (URI_ATTRS[lowerAttrName]) {
-                                    generateBindingUpdateOpCodes(update, attr.value, newIndex, attr.name, _sanitizeUrl);
+                                    generateBindingUpdateOpCodes(update, attr.value, newIndex, attr.name, 0, _sanitizeUrl);
                                 }
                                 else if (SRCSET_ATTRS[lowerAttrName]) {
-                                    generateBindingUpdateOpCodes(update, attr.value, newIndex, attr.name, sanitizeSrcset);
+                                    generateBindingUpdateOpCodes(update, attr.value, newIndex, attr.name, 0, sanitizeSrcset);
                                 }
                                 else {
-                                    generateBindingUpdateOpCodes(update, attr.value, newIndex, attr.name);
+                                    generateBindingUpdateOpCodes(update, attr.value, newIndex, attr.name, 0, null);
                                 }
                             }
                             else {
@@ -45042,7 +45083,8 @@ function walkIcuTree(tView, tIcu, lView, sharedUpdateOpCodes, create, remove, up
                 addCreateNodeAndAppend(create, null, hasBinding ? '' : value, parentIdx, newIndex);
                 addRemoveNode(remove, newIndex, depth);
                 if (hasBinding) {
-                    bindingMask = generateBindingUpdateOpCodes(update, value, newIndex) | bindingMask;
+                    bindingMask =
+                        generateBindingUpdateOpCodes(update, value, newIndex, null, 0, null) | bindingMask;
                 }
                 break;
             case Node.COMMENT_NODE:
@@ -45934,7 +45976,7 @@ class Version {
 /**
  * @publicApi
  */
-const VERSION = new Version('11.2.12');
+const VERSION = new Version('11.2.14');
 
 /**
  * @license
@@ -47120,9 +47162,6 @@ class ViewRef {
     }
     /**
      * Marks a view and all of its ancestors dirty.
-     *
-     * It also triggers change detection by calling `scheduleTick` internally, which coalesces
-     * multiple `markForCheck` calls to into one change detection run.
      *
      * This can be used to ensure an {@link ChangeDetectionStrategy#OnPush OnPush} component is
      * checked when it needs to be re-rendered but the two normal triggers haven't marked it
@@ -51641,11 +51680,11 @@ function getAnnotation(type, name) {
  * NgModule the component belongs to. We keep the list of compiled components here so that the
  * TestBed can reset it later.
  */
-let ownerNgModule = new Map();
-let verifiedNgModule = new Map();
+let ownerNgModule = new WeakMap();
+let verifiedNgModule = new WeakMap();
 function resetCompiledComponents() {
-    ownerNgModule = new Map();
-    verifiedNgModule = new Map();
+    ownerNgModule = new WeakMap();
+    verifiedNgModule = new WeakMap();
     moduleQueue.length = 0;
 }
 /**
@@ -58452,7 +58491,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ɵgetDOM", function() { return _angular_common__WEBPACK_IMPORTED_MODULE_0__["ɵgetDOM"]; });
 
 /**
- * @license Angular v11.2.12
+ * @license Angular v11.2.14
  * (c) 2010-2021 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -58944,29 +58983,36 @@ class DomSharedStylesHost extends SharedStylesHost {
     constructor(_doc) {
         super();
         this._doc = _doc;
-        this._hostNodes = new Set();
-        this._styleNodes = new Set();
-        this._hostNodes.add(_doc.head);
+        // Maps all registered host nodes to a list of style nodes that have been added to the host node.
+        this._hostNodes = new Map();
+        this._hostNodes.set(_doc.head, []);
     }
-    _addStylesToHost(styles, host) {
+    _addStylesToHost(styles, host, styleNodes) {
         styles.forEach((style) => {
             const styleEl = this._doc.createElement('style');
             styleEl.textContent = style;
-            this._styleNodes.add(host.appendChild(styleEl));
+            styleNodes.push(host.appendChild(styleEl));
         });
     }
     addHost(hostNode) {
-        this._addStylesToHost(this._stylesSet, hostNode);
-        this._hostNodes.add(hostNode);
+        const styleNodes = [];
+        this._addStylesToHost(this._stylesSet, hostNode, styleNodes);
+        this._hostNodes.set(hostNode, styleNodes);
     }
     removeHost(hostNode) {
+        const styleNodes = this._hostNodes.get(hostNode);
+        if (styleNodes) {
+            styleNodes.forEach(removeStyle);
+        }
         this._hostNodes.delete(hostNode);
     }
     onStylesAdded(additions) {
-        this._hostNodes.forEach(hostNode => this._addStylesToHost(additions, hostNode));
+        this._hostNodes.forEach((styleNodes, hostNode) => {
+            this._addStylesToHost(additions, hostNode, styleNodes);
+        });
     }
     ngOnDestroy() {
-        this._styleNodes.forEach(styleNode => Object(_angular_common__WEBPACK_IMPORTED_MODULE_0__["ɵgetDOM"])().remove(styleNode));
+        this._hostNodes.forEach(styleNodes => styleNodes.forEach(removeStyle));
     }
 }
 DomSharedStylesHost.ɵfac = function DomSharedStylesHost_Factory(t) { return new (t || DomSharedStylesHost)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](_angular_common__WEBPACK_IMPORTED_MODULE_0__["DOCUMENT"])); };
@@ -58980,6 +59026,9 @@ DomSharedStylesHost.ctorParameters = () => [
                 type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"],
                 args: [_angular_common__WEBPACK_IMPORTED_MODULE_0__["DOCUMENT"]]
             }] }]; }, null); })();
+function removeStyle(styleNode) {
+    Object(_angular_common__WEBPACK_IMPORTED_MODULE_0__["ɵgetDOM"])().remove(styleNode);
+}
 
 /**
  * @license
@@ -60606,7 +60655,7 @@ function elementMatches(n, selector) {
 /**
  * @publicApi
  */
-const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["Version"]('11.2.12');
+const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["Version"]('11.2.14');
 
 /**
  * @license
@@ -63343,7 +63392,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵsetRootDomAdapter", function() { return setRootDomAdapter; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
 /**
- * @license Angular v11.2.12
+ * @license Angular v11.2.14
  * (c) 2010-2021 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -64322,7 +64371,7 @@ var TranslationWidth;
  * Examples are given for `en-US`.
  *
  * @see `getLocaleDateFormat()`
- * @see `getLocaleTimeFormat()``
+ * @see `getLocaleTimeFormat()`
  * @see `getLocaleDateTimeFormat()`
  * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n)
  * @publicApi
@@ -67121,6 +67170,9 @@ NgSwitch.propDecorators = {
 class NgSwitchCase {
     constructor(viewContainer, templateRef, ngSwitch) {
         this.ngSwitch = ngSwitch;
+        if ((typeof ngDevMode === 'undefined' || ngDevMode) && !ngSwitch) {
+            throwNgSwitchProviderNotFoundError('ngSwitchCase', 'NgSwitchCase');
+        }
         ngSwitch._addCase();
         this._view = new SwitchView(viewContainer, templateRef);
     }
@@ -67131,12 +67183,12 @@ class NgSwitchCase {
         this._view.enforceState(this.ngSwitch._matchCase(this.ngSwitchCase));
     }
 }
-NgSwitchCase.ɵfac = function NgSwitchCase_Factory(t) { return new (t || NgSwitchCase)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["TemplateRef"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](NgSwitch, 1)); };
+NgSwitchCase.ɵfac = function NgSwitchCase_Factory(t) { return new (t || NgSwitchCase)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["TemplateRef"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](NgSwitch, 9)); };
 NgSwitchCase.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirective"]({ type: NgSwitchCase, selectors: [["", "ngSwitchCase", ""]], inputs: { ngSwitchCase: "ngSwitchCase" } });
 NgSwitchCase.ctorParameters = () => [
     { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"] },
     { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["TemplateRef"] },
-    { type: NgSwitch, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Host"] }] }
+    { type: NgSwitch, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Host"] }] }
 ];
 NgSwitchCase.propDecorators = {
     ngSwitchCase: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }]
@@ -67145,6 +67197,8 @@ NgSwitchCase.propDecorators = {
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"],
         args: [{ selector: '[ngSwitchCase]' }]
     }], function () { return [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["TemplateRef"] }, { type: NgSwitch, decorators: [{
+                type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"]
+            }, {
                 type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Host"]
             }] }]; }, { ngSwitchCase: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
@@ -67165,22 +67219,32 @@ NgSwitchCase.propDecorators = {
  */
 class NgSwitchDefault {
     constructor(viewContainer, templateRef, ngSwitch) {
+        if ((typeof ngDevMode === 'undefined' || ngDevMode) && !ngSwitch) {
+            throwNgSwitchProviderNotFoundError('ngSwitchDefault', 'NgSwitchDefault');
+        }
         ngSwitch._addDefault(new SwitchView(viewContainer, templateRef));
     }
 }
-NgSwitchDefault.ɵfac = function NgSwitchDefault_Factory(t) { return new (t || NgSwitchDefault)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["TemplateRef"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](NgSwitch, 1)); };
+NgSwitchDefault.ɵfac = function NgSwitchDefault_Factory(t) { return new (t || NgSwitchDefault)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["TemplateRef"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](NgSwitch, 9)); };
 NgSwitchDefault.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirective"]({ type: NgSwitchDefault, selectors: [["", "ngSwitchDefault", ""]] });
 NgSwitchDefault.ctorParameters = () => [
     { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"] },
     { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["TemplateRef"] },
-    { type: NgSwitch, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Host"] }] }
+    { type: NgSwitch, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Host"] }] }
 ];
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NgSwitchDefault, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"],
         args: [{ selector: '[ngSwitchDefault]' }]
     }], function () { return [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["TemplateRef"] }, { type: NgSwitch, decorators: [{
+                type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"]
+            }, {
                 type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Host"]
             }] }]; }, null); })();
+function throwNgSwitchProviderNotFoundError(attrName, directiveName) {
+    throw new _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵRuntimeError"]("305" /* TEMPLATE_STRUCTURE_ERROR */, `An element with the "${attrName}" attribute ` +
+        `(matching the "${directiveName}" directive) must be located inside an element with the "ngSwitch" attribute ` +
+        `(matching "NgSwitch" directive)`);
+}
 
 /**
  * @license
@@ -68637,7 +68701,7 @@ function isPlatformWorkerUi(platformId) {
 /**
  * @publicApi
  */
-const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["Version"]('11.2.12');
+const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["Version"]('11.2.14');
 
 /**
  * @license
@@ -73924,7 +73988,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_animations__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/animations */ "R0Ic");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "fXoL");
 /**
- * @license Angular v11.2.12
+ * @license Angular v11.2.14
  * (c) 2010-2021 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -76695,7 +76759,7 @@ class TransitionAnimationEngine {
     }
     createNamespace(namespaceId, hostElement) {
         const ns = new AnimationTransitionNamespace(namespaceId, hostElement, this);
-        if (hostElement.parentNode) {
+        if (this.bodyNode && this.driver.containsElement(this.bodyNode, hostElement)) {
             this._balanceNamespaceList(ns, hostElement);
         }
         else {
@@ -76704,7 +76768,7 @@ class TransitionAnimationEngine {
             // the namespace list
             this.newHostElements.set(hostElement, ns);
             // given that this host element is apart of the animation code, it
-            // may or may not be inserted by a parent node that is an of an
+            // may or may not be inserted by a parent node that is of an
             // animation renderer type. If this happens then we can still have
             // access to this item when we query for :enter nodes. If the parent
             // is a renderer then the set data-structure will normalize the entry
@@ -78708,7 +78772,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "kU1M");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "ofXK");
 /**
- * @license Angular v11.2.12
+ * @license Angular v11.2.14
  * (c) 2010-2021 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -79455,9 +79519,9 @@ class HttpRequest {
         if (this.body instanceof HttpParams) {
             return 'application/x-www-form-urlencoded;charset=UTF-8';
         }
-        // Arrays, objects, and numbers will be encoded as JSON.
+        // Arrays, objects, boolean and numbers will be encoded as JSON.
         if (typeof this.body === 'object' || typeof this.body === 'number' ||
-            Array.isArray(this.body)) {
+            typeof this.body === 'boolean') {
             return 'application/json';
         }
         // No type could be inferred.
