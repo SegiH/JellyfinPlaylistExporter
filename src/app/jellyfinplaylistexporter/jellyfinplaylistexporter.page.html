@@ -1,0 +1,99 @@
+<ion-header [translucent]="true">
+     <ion-toolbar>
+          <ion-title>Jellyfin Playlist Exporter</ion-title>
+      </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+     <ion-grid>
+          <ion-row>
+               <!-- 1st Row -->
+               <ion-col size="2">
+                    <ion-label>Jellyfin URL: </ion-label>
+               </ion-col>
+
+               <ion-col size="2">
+                    <ion-input class="inputField" [(ngModel)]="URL" value="URL"></ion-input>               
+               </ion-col>
+
+               <ion-col size="1"></ion-col>
+
+               <ion-col size="2">
+                    <ion-button (click)="loadUserAccounts()">Load User Accounts</ion-button>
+               </ion-col>
+
+               <ion-col size="5"></ion-col>
+
+               <!-- 2nd Row -->
+               <ion-col size="2">
+                    <ion-label>API Key: </ion-label>
+               </ion-col>
+
+               <ion-col size="2">
+                    <ion-input class="inputField" [(ngModel)]="APIKey" value="APIKey"></ion-input>               
+               </ion-col>
+
+               <ion-col size="8"></ion-col>
+
+               <!-- 3rd Row -->
+               <ion-col size="2">
+                    <ion-label *ngIf="userAccounts != null">User Accounts: </ion-label>
+               </ion-col>
+
+               <ion-col size="2">
+                    <ion-select [(ngModel)]="currentUserID" *ngIf="userAccounts != null" [required]=true>
+                         <ion-select-option *ngFor="let currAccount of userAccounts;trackBy: trackByFn" [value]="currAccount.Id">
+                              {{ currAccount.Name }}
+                         </ion-select-option>
+                    </ion-select>
+               </ion-col>
+
+               <ion-col size="1"></ion-col>
+
+               <ion-col size="2">
+                    <ion-button *ngIf="userAccounts != null" (click)="loadPlaylists()">Load Playlists</ion-button>           
+               </ion-col>
+
+               <ion-col size="5"></ion-col>
+
+               <!-- 4th Row -->
+               <ion-col size="2">
+                    <ion-label *ngIf="playlistsLoaded">Select All/None: </ion-label>
+                    <ion-checkbox *ngIf="playlistsLoaded" [(ngModel)]="selectAllNone" (ionChange)="selectAllNoneChanged()"></ion-checkbox>
+               </ion-col>
+
+               <ion-col size="10"></ion-col>
+
+               <!-- 5th Row -->
+               <ion-col size="3">
+                    <ion-list *ngIf="playlistsLoaded" id="playlistsList">
+                         <ion-item *ngFor="let currPlaylist of playlists">
+                              <ion-checkbox [(ngModel)]="currPlaylist.Checked"></ion-checkbox>
+                              <ion-label>{{ currPlaylist.Name }}</ion-label>
+                         </ion-item>
+                    </ion-list>
+               </ion-col>
+
+               <ion-col size="2"></ion-col>
+
+               <ion-col size="2">
+                    <ion-button *ngIf="playlistsLoaded" (click)="exportPlaylists()">Export</ion-button>           
+               </ion-col>
+          </ion-row>
+     </ion-grid>
+</ion-content>
+
+<!--
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <strong>Ready to create an app?</strong>
+    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  </div>
+</ion-content>
+-->

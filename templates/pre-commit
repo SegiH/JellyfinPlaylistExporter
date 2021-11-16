@@ -1,0 +1,46 @@
+#!/bin/sh
+#
+# An example hook script to verify what is about to be committed.
+# Called by "git commit" with no arguments.  The hook should
+# exit with non-zero status after issuing an appropriate message if
+# it wants to stop the commit.
+#
+
+# Validate that API Key = ""
+test=$(grep "APIKey: string = \"\"" src/app/jellyfinplaylistexporter/jellyfinplaylistexporter.page.ts)
+
+if [ $? -ne 0 ]
+then
+	cat <<\EOF
+Error: API String is not set to ""
+
+This can cause you to accidentally commit with the API key for all to see. No!!!!!!
+EOF
+	exit 1
+fi
+
+# Validate that URL = ""
+test=$(grep "URL: string = \"\"" src/app/jellyfinplaylistexporter/jellyfinplaylistexporter.page.ts)
+
+if [ $? -ne 0 ]
+then
+	cat <<\EOF
+Error: URL String is not set to ""
+
+This can cause you to accidentally commit with the URL key for all to see. No!!!!!!
+EOF
+	exit 1
+fi
+
+# Validate that DemoMode = false
+test=$(grep "demoMode = false" src/app/jellyfinplaylistexporter/jellyfinplaylistexporter.page.ts)
+
+if [ $? -ne 0 ]
+then
+	cat <<\EOF
+Error: Demo Mode is enabled
+
+You do not want to publish this app with Demo mode enabled. No!!!!!!
+EOF
+	exit 1
+fi
