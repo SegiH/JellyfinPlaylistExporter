@@ -15,4 +15,4 @@ This app is 100% client based and does not require a server to run. The only ser
 
 # Screenshots 
 
-![Screenshot1](https://raw.githubusercontent.com/SegiH/JellyfinPlaylistExporter/main/screenshots/PlaylistSelection.png)
+![Screenshot1](https://github.com/SegiH/JellyfinPlaylistExporter/blob/main/screenshots/PlaylistSelection.PNG)
