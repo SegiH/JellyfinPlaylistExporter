@@ -5,12 +5,27 @@ ion-button {
 ion-col {
      margin-bottom: 25px;
 }
+
+ion-list {
+     overflow: auto;
+}
+
+ion-grid {
+     width: 100%;
+     overflow: auto;
+}
+
 ion-header {
      margin-bottom: 25px;
 }
 
+ion-input {
+     max-width: 250px;
+}
+
 ion-label {
      margin-left: 20px;
+     width: 100px;
 }
 
 ion-toolbar {
