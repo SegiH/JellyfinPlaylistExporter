@@ -4,6 +4,9 @@ This application is a rewrite of my Windows desktop app [Emby and Jellyfin Playl
 
 This app is 100% client based and does not require a server to run. The only server side requests that are made are to get the user accounts, playlists and playlist contents.
 
+## Use Online
+You can install Emby and Jellyfin Playlist Exporter or use my online link [here](https://segih.github.io/JellyfinPlaylistExporter/):
+
 ### Usage
 
 1. Generate an API key in Jellyfin/Emby: (Dashboard->Api Keys)
