@@ -156,7 +156,7 @@ export class JellyfinPlaylistExporterPage implements OnInit {
                let message="";
 
                if (error.message.includes("401 Unauthorized" ) || error.statusText == "Unknown Error") 
-                    message="Unable to get user accounts. Please check the API key";
+                    message="Unable to get user accounts. Please check the Jellyfin URL and API key";
                else
                     message=error.message;
 
@@ -176,5 +176,10 @@ export class JellyfinPlaylistExporterPage implements OnInit {
                duration: 3000
           });
           toast.present();
+     }
+
+     // Used to prevent the entire DOM tree from being re-rendered every time that there is a change
+     trackByFn(index, item) {
+          return index; // or item.id
      }
 }

@@ -21,8 +21,8 @@
                     <ion-label>User Accounts: </ion-label>
 
                     <ion-select [(ngModel)]="currentUserID" [required]=true>
-                         <ion-select-option *ngFor="let currAccount of userAccounts;trackBy: trackByFn" [value]="currAccount.Id">
-                              {{ currAccount.Name }}
+                         <ion-select-option *ngFor="let currAccount of userAccounts;trackBy: trackByFn" [value]="currAccount['Id']">
+                              {{ currAccount['Name'] }}
                          </ion-select-option>
                     </ion-select>
 
