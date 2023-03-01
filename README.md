@@ -9,6 +9,9 @@ It is very lightweight coming at 273k total size when built.
 ## Use Online
 You can install Jellyfin Playlist Exporter or use my online link [here](https://segih.github.io/JellyfinPlaylistExporter/):
 
+## Run on your own Android device
+You can also run this app on your Android device by running a local web server. I tested this app using the Android app AWebServer but any web server app from the Play Store should work. You need to build the app and copy the 2 files in /dist (bundle.js and index.html) to your web server. You will probably need to edit index.html and make sure that the path to bundle.js appears as "/bundle.js", not "/dist/bundle.js". This appears twice in index.html!
+
 ### Usage
 
 1. Generate an API key in Jellyfin/Emby: (Dashboard->Api Keys)
