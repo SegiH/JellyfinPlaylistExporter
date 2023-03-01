@@ -1,0 +1,89 @@
+body {
+    display: block !important;
+    min-width: 745px;
+}
+
+.border {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.button {
+    background-color: #673ab7;
+    border-radius: 9px;
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+    height: 36px;
+    margin-left: 12px;
+    position: relative;
+    top: -7px;
+    width: 158px;
+}
+
+.grid {
+     align-items: center;
+     margin-left: 0.5%;
+     margin-top: 2.2%;
+}
+
+.gridRow {
+    display: flex;
+    width: 100px;
+}
+
+.input {
+    border-bottom-color: rgba(0, 0, 0, 0.87);
+    border-bottom-width: 1.5px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-left: 75px;
+    position: relative;
+    top: 4px;
+    width: 345px;
+}
+
+.label {
+    font-family: Helvetica Neue,sans-serif;
+    font-size: 14px;
+    min-width: 100px;
+    position: relative;
+    top: 4px;
+}
+
+.marginLeft {
+    margin-left: 25px;
+}
+
+.playlists {
+     margin-bottom: 10px;
+     min-height: 300px;
+     min-width: 250px;
+
+}
+
+.selectAllNone {
+     border: none;
+     display: inline-block;
+     width: 500px;
+}
+
+.spacer {
+     margin-bottom: 25px;
+}
+
+.titleLabel {
+     font-size: 20px;
+     font-weight: bold;
+     margin-left: 10px;
+     padding-top: 15px;
+}
+
+.title {
+     background-color: #673ab7;
+     color: white;
+     font: 500 20px/32px Roboto,Helvetica Neue,sans-serif;
+     height: 64px;
+     width: 100%;
+}
