@@ -82,9 +82,6 @@ const App = () => {
                     FileSaver.saveAs(content, name);
           });
 
-          const newCheckedState=[];
-          setCheckedState(newCheckedState);
-          setSelectAllNone(false);
           setPlaylistsTracksLoadingStarted(false);
      }
 
@@ -155,12 +152,6 @@ const App = () => {
           });
      }
 
-     const setPlaylistCheckedChangeHandler = (playlistId,event) => {
-          const target = event.target;
-
-          setSelected(playlistId,target.checked);
-     }
-
      // Demo mode
      useEffect(() => {
           if (demoMode) {
@@ -178,8 +169,8 @@ const App = () => {
                ];
 
                setPlaylists(demoPlaylists);
-
                setPlaylistsLoadingComplete(true);
+               setSelectAllNone(false);
           }
      },[demoMode]);
 
@@ -267,7 +258,7 @@ const App = () => {
                                         {playlists.length > 0 && playlists.map((playlist,index) => {
                                              return (
                                                   <React.Fragment key={index}>
-                                                       <input type="checkbox" id={`custom-checkbox-${playlist["Id"]}`} name={playlist["Id"]} value={playlist["Id"]} checked={isChecked([playlist["Id"]])} onChange={(event) => setPlaylistCheckedChangeHandler(playlist["Id"],event)} />
+                                                       <input type="checkbox" id={`custom-checkbox-${playlist["Id"]}`} name={playlist["Id"]} value={playlist["Id"]} checked={isChecked([playlist["Id"]])} onChange={(event) => setSelected(playlist["Id"],event.target.checked)} />
                                                        <label htmlFor={`custom-checkbox-${playlist["Id"]}`}>{playlist["Name"]}</label>
                                                        <br />
                                                   </React.Fragment>
@@ -276,7 +267,9 @@ const App = () => {
                                    </span>
 
                                    <span>
-                                        <button className="button" onClick={exportPlaylistsClickHandler}>Export</button>
+                                        {(playlistsLoadingStarted === false || (playlistsLoadingStarted  === true && !playlistsLoadingComplete === false)) &&
+                                             <button className="button" onClick={exportPlaylistsClickHandler}>Export</button>
+                                        }
                                    </span>
                               </div>
                          </div>
