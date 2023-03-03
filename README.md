@@ -1,16 +1,14 @@
 # JellyfinPlaylistExporter
 
-This application is a rewrite of my Windows desktop app [Emby and Jellyfin Playlist Exporter](https://github.com/SegiH/Emby-and-Jellyfin-Playlist-Exporter) that can be run online instead of as a Desktop app.
+This application is a rewrite of my C# based Windows desktop app [Emby and Jellyfin Playlist Exporter](https://github.com/SegiH/Emby-and-Jellyfin-Playlist-Exporter) that can be run as a web app, a Windows app or run as a web app on Android.
 
-This app is 100% client based and does not require a server to run. The only connections that are made are to your own media server to get the user accounts, playlists and playlist contents.
+It is very lightweight coming at 278k total size when built.
 
-It is very lightweight coming at 273k total size when built.
+## Web app
+You can install build the Jellyfin Playlist Exporter web app using the instructions below or use the [GitHub hosted link](https://segih.github.io/JellyfinPlaylistExporter/):
 
-## Use Online
-You can install Jellyfin Playlist Exporter or use my online link [here](https://segih.github.io/JellyfinPlaylistExporter/):
-
-## Run on your own Android device
-You can also run this app on your Android device by running a local web server. I tested this app using the Android app AWebServer but any web server app from the Play Store should work. You need to build the app and copy the 2 files in /dist (bundle.js and index.html) to your web server. You will probably need to edit index.html and make sure that the path to bundle.js appears as "/bundle.js", not "/dist/bundle.js". This appears twice in index.html!
+## Run on Android device
+You can also run this app on your Android device by running a local web server that you can get from the Google Play Store. I tested this app using the Android app AWebServer but any web server app from the Play Store should work. You need to build the web app using the build instructions below and copy the 2 files in /dist (bundle.js and index.html) to your web server root path. You will probably need to edit index.html and make sure that the path to bundle.js appears as "/bundle.js", not "/dist/bundle.js". This appears twice in index.html!
 
 ### Usage
 
@@ -20,6 +18,17 @@ You can also run this app on your Android device by running a local web server. 
 1. Select a user name from the user accounts dropdown and click on Load Playlists
 1. Select at least 1 playlist.
 1. Click on Export to save the playlist(s). You will be presented with a zip file to download which contains your playlists.
+
+# Build Instructions
+
+1. cd to source
+1. npm install
+1. npm run build
+1. Copy contents of dist to your web server
+
+# Build Windows app
+1. Run build-electron.bat
+1. You can then find the Windows app in release-builds\JellyfinPlaylistExporter-win32-x64
 
 # Screenshots 
 

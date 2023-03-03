@@ -1,0 +1,2 @@
+@echo off
+npm install && npm run build && powershell -Command "(gc dist/index.html) -replace '/dist/bundle.js', './bundle.js' | Out-File -encoding ASCII dist/index.html" && copy /Y package.electron.json dist\package.json && npm run build:electron && npm run deploy-win && explorer release-builds\
