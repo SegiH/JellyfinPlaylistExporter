@@ -12,8 +12,8 @@ module.exports = {
   },
   output: {
     filename: 'bundle.js',
-    path: path.resolve("dist"),
-    publicPath: "/dist",
+    //path: path.resolve("dist"),
+    publicPath: "/",
   },
   performance: {
     hints: process.env.NODE_ENV === 'production' ? "warning" : false
