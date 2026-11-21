@@ -18,6 +18,9 @@ You can also run this app on your Android device by running a local web server t
 1. Select a user name from the user accounts dropdown and click on Load Playlists
 1. Select at least 1 playlist.
 1. Click on Export to save the playlist(s). You will be presented with a zip file to download which contains your playlists.
+   - With "Include media files" checked (default), every track is downloaded from Jellyfin (original file, no transcoding) and added to the zip as `<Playlist name>/NNN - Artist - Title.ext`. The `.m3u8` file uses these relative paths, so it keeps working after extracting the zip, e.g. onto a USB stick. The user/API key needs download permission in Jellyfin.
+   - With the option unchecked, only the `.m3u8` files are exported, containing the original server file paths.
+   - The zip is built in the browser's memory, so keep an export to roughly 1-2 GB (a few hundred MP3 files). Tracks that fail to download are skipped and reported at the end.
 
 # Build Instructions
 
