@@ -7,6 +7,9 @@ const JSZip = require('jszip');
 
 import './App.css';
 
+// Newer Jellyfin versions reject the api_key query parameter, so send the key as a header instead
+const authHeaders = (apiKey) => ({ Authorization: `MediaBrowser Token="${apiKey.trim()}"` });
+
 const App = () => {
      const [APIKey,setAPIKey] = useState('');
      const [checkedState, setCheckedState] = useState([]);
@@ -50,10 +53,10 @@ const App = () => {
           // Get all playlist items for the selected playlists
           await Promise.all(
                selectedPlaylists.map(async (currentPlaylist) => {
-                    const playlistAPI=`${URL}Playlists/${currentPlaylist.Id}/Items?Fields=Path&userId=${currentUserID}&api_key=${APIKey}`;
+                    const playlistAPI=`${URL}Playlists/${currentPlaylist.Id}/Items?Fields=Path&userId=${currentUserID}`;
 
-                    const result = 
-                         await axios.get(playlistAPI).then(playlistItemsData => {
+                    const result =
+                         await axios.get(playlistAPI, { headers: authHeaders(APIKey) }).then(playlistItemsData => {
                               return playlistItemsData.data.Items;
                          },
                          error => {
@@ -100,7 +103,7 @@ const App = () => {
 
           setPlaylistsLoadingStarted(true);
 
-          await axios.get(`${URL}Users/${currentUserID}/Items?format=json&Recursive=true&IncludeItemTypes=Playlist&api_key=${APIKey}`)
+          await axios.get(`${URL}Users/${currentUserID}/Items?format=json&Recursive=true&IncludeItemTypes=Playlist`, { headers: authHeaders(APIKey) })
           .then(playlistsResponse=> {
                const playlists = playlistsResponse.data.Items.sort((a,b)=>{
                     return a.Name.localeCompare(b.Name);
@@ -128,7 +131,7 @@ const App = () => {
                setURL(currentURL);
           }
 
-          await axios.get(`${currentURL}Users?format=json&api_key=${APIKey}`)
+          await axios.get(`${currentURL}Users?format=json`, { headers: authHeaders(APIKey) })
           .then(res=> {
                setUserAccounts(res.data);
                setUserAccountsLoaded(true);
